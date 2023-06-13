@@ -1,0 +1,11 @@
+[package]
+name = "physarum"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bevy = { version = "0.10", default_features = false }
+bevy_pixels = "0.10"
+rand = "0.8.5"
